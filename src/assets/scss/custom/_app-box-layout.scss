@@ -191,8 +191,8 @@
                         }
                      }
                      &:after {
-                        top: 4rem;
-                        left: 3.55rem;
+                        top: 3.45rem;
+                        left: 3rem;
                         transform: rotate(-45deg);
                      }
                   }
@@ -222,7 +222,7 @@
    /*=============== Responsive ===================*/
    @media (min-width: 1600px) {
       .app-container {
-         width: 1600px;
+         width: 100%;
       }
    }
     @media (max-width: 1250px) {

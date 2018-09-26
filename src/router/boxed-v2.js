@@ -11,11 +11,11 @@ const Agency = () => import('Views/dashboard/Agency');
 export default {
    path: '/',
    component: BoxedLayout,
-   redirect: '/dashboard/ecommerce',
+   redirect: '/default/dashboard/ecommerce',
    children: [
       {
          component: Ecommerce,
-         path: '/dashboard/ecommerce',
+         path: '/default/dashboard/ecommerce',
          meta: {
             requiresAuth: true,
             title: 'message.ecommerce',
@@ -24,7 +24,7 @@ export default {
       },
       {
          component: WebAnalytics,
-         path: '/dashboard/web-analytics',
+         path: '/default/dashboard/web-analytics',
          meta: {
             requiresAuth: true,
             title: 'message.webAnalytics',
@@ -33,7 +33,7 @@ export default {
       },
       {
          component: Magazine,
-         path: '/dashboard/magazine',
+         path: '/default/dashboard/magazine',
          meta: {
             requiresAuth: true,
             title: 'message.magazineAndNews',
@@ -42,7 +42,7 @@ export default {
       },
       {
          component: News,
-         path: '/dashboard/news',
+         path: '/default/dashboard/news',
          meta: {
             requiresAuth: true,
             title: 'message.news',
@@ -51,7 +51,7 @@ export default {
       },
       {
          component: Agency,
-         path: '/dashboard/agency',
+         path: '/default/dashboard/agency',
          meta: {
             requiresAuth: true,
             title: 'message.agency',

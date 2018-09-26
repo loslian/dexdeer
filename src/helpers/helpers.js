@@ -54,6 +54,7 @@ export function hexToRgbA(hex, alpha) {
  */
 export function getCurrentAppLayout(router) {
 	let location = router.history.current.fullPath;
-	let path = location.split("/")
+	let path = location.split("/");
+	console.log(path)
 	return path[1];
 }
